@@ -46,3 +46,41 @@ h6 {
     font-size: 1.3em;
     font-weight: 600;
 }
+
+div#navbar ul {
+	list-style-type: none;
+	padding: 0;
+    margin: 0 0 0 2%;
+}
+
+div#navbar ul li {
+    display: inline-block;
+	text-align: center;
+	margin: 0 0 2% 0;
+	padding: 1%;
+    width: 17%;
+}
+
+a {
+    background-color: inherit;
+}
+
+div#navbar ul li a  {
+	font-family: Georgia, Times, serif;
+	font-weight: bold;
+	font-size: 1.2em;
+	text-decoration: none;
+    color: #E9F0F2;
+}
+
+li.colorButton {
+	background-color: #223840;
+}
+
+li.colorButton:hover {
+	background-color: #392240;
+}
+
+li.colorButton:active {
+	background-color: #402A22;
+}
