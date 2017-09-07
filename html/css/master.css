@@ -1,0 +1,23 @@
+* {
+    background-color: #A9BCC2;
+    font-size: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+p {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 1.1 em;
+    margin: 2%;
+    color: #223840;
+}
+
+h1, h2 {
+    font-family: Georgia, serif;
+    padding: 2%;
+    font-size: 3em;
+    font-weight: 800;
+    color: #223840;
+}
