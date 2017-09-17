@@ -158,7 +158,8 @@ div#navbar {
 div#navbar ul li a  {
 	font-family: Georgia, Times, serif;
     font-weight: 600;
-	font-size: 1.2em;
+	font-size: 1.5em;
+    font-variant: small-caps;
 	text-decoration: none;
     color: #cff2d4;
 }
