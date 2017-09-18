@@ -61,7 +61,6 @@ h3.keyword {
 
 header {
     background-color: #204354;
-    /*#121C3A; #3A1230; /*#224c3c; /*#154136; /*#00374c; /*#146c80; /*#36a489; /*#2f9148;*/
     position: fixed;
     width: 100%;
     height: 22%;
@@ -133,45 +132,48 @@ table#resume {
     margin-top: 10%;
 }
 
-div#navbar ul {
-	list-style-type: none;
-	padding: 0;
-    margin: 0 0 0 3%;
+div#navbar {
+    clear: both;
 }
 
-div#navbar ul li {
-    display: inline-block;
-	text-align: center;
-	margin: 0 0 2% 0;
-	padding: 1%;
-    width: 17%;
+div#navbar a{
+	list-style-type: none;
+	padding: 0;
+    margin: 0 .5% 0 0;
 }
 
 a {
     background-color: inherit;
 }
 
-div#navbar {
-    clear: both;
-}
-
-div#navbar ul li a  {
-	font-family: Georgia, Times, serif;
+a input[type="submit"] {
+    font-family: Georgia, Times, serif;
     font-weight: 600;
-	font-size: 1.5em;
+    font-size: 1.5em;
     font-variant: small-caps;
-	text-decoration: none;
+    text-decoration: none;
     color: #cff2d4;
+    display: inline-block;
+    text-align: center;
+    padding: 1% 0 1% 0;
+    width: 18%;
 }
 
-li.colorButton {
-	background-color:  #1C123A; /*#1C123A /*#1f0838; /*#223840;*/
+a input[value="Home"] {
+    margin-left: 3%;
 }
 
-li.colorButton:hover {
-	background-color: #4B2054;/*#121C3A/*#4e148d /*#392240;*/
+a.colorButton input{
+	background-color:  #1C123A;
+    border: 1px solid #1C123A;
 }
 
-li.colorButton:active {
-	background-color: #295420 /*#213808; /*#402A22;*/
+a.colorButton input:hover {
+	background-color: #4B2054;
+    border: 1px solid #4B2054;
+}
+
+a.colorButton input:active {
+	background-color: #295420;
+    border: 1px solid #295420;
 }
