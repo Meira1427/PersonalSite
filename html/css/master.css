@@ -21,7 +21,7 @@ p {
     margin: 0 3% 1% 3%;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h6 {
     font-family: Georgia, serif;
     text-align: center;
     line-height: .3em;
@@ -41,6 +41,13 @@ h3 {
 h4 {
     font-size: 1.5em;
     font-weight: 600;
+    margin-top: 0;
+}
+
+h6 {
+    font-size: 1.1em;
+    font-weight: 400;
+    margin: 3% 0 0 0;
 }
 
 h1.myName {
@@ -95,10 +102,10 @@ footer {
 }
 
 table#labs {
-    width: 80%;
+    width: 90%;
     border-collapse: collapse;
     border: 3px solid #324D28;
-    margin: 0 10%;
+    margin: 0 5%;
 }
 
 #labs td, #labs th {
@@ -107,10 +114,10 @@ table#labs {
 }
 
 table#resume {
-    width: 95%;
+    width: 94%;
     border-collapse: collapse;
     border: 3px solid #324D28;
-    margin: 0 5%;
+    margin: 0 3%;
     padding: 2%;
 }
 
@@ -125,11 +132,50 @@ table#resume {
     vertical-align: top;
 }
 
+table#swot {
+    width: 95%;
+    border-collapse: collapse;
+    /*border: 3px solid #324D28;*/
+    margin: 0 3%;
+    padding: 1%;
+}
+
+#swot td, #swot th {
+    text-align: left;
+    font-size: 1em;
+    padding-left: .5%;
+}
+
+#swot th {
+    font-size: 1em;
+    vertical-align: top;
+    padding-top: 3%;
+}
+
+#swot ul li {
+    text-align: left;
+    text-indent: none;
+}
+
+#swot ul  {
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+
 #acclaim {
     display:block;
     margin 0 auto;
     text-align: center;
     margin-top: 10%;
+}
+
+#fish {
+    display:block;
+    margin 0 auto;
+    text-align: center;
+    margin-top: 1%;
 }
 
 div#navbar {

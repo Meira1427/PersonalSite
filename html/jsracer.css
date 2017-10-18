@@ -1,0 +1,37 @@
+body {
+    background: url("http://streaming.yayimages.com/images/photographer/iimages/2ea420adaf2370ad333b771034ea8489/a-hilltop-with-a-garden-and-a-giant-tree.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #24401e;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 4em;
+    font-weight: 700;
+    text-align: center;
+    line-height: .3;
+}
+
+h3 {
+    font-family: Georgia, serif;
+    font-size: 1.3em;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    line-height: .3;
+}
+
+div.red, div.blue {
+    width: 100px;
+    height: 100px;
+}
+
+div.spacer1 {
+    margin: 25% 0 0 0;
+}
+
+div.spacer2 {
+    margin: 0;
+}
