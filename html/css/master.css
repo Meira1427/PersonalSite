@@ -84,7 +84,7 @@ main {
     border: 5px solid #043c2e;
     width: 50%;
     height: 50%;
-    margin: 2% 22%;
+    margin: 6% 22%;
     padding: 3%;
 }
 
@@ -135,7 +135,6 @@ table#resume {
 table#swot {
     width: 95%;
     border-collapse: collapse;
-    /*border: 3px solid #324D28;*/
     margin: 0 3%;
     padding: 1%;
 }
@@ -205,21 +204,34 @@ a input[type="submit"] {
     width: 18%;
 }
 
-a input[value="Home"] {
+input[type="submit"] {
+    font-family: Georgia, Times, serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    font-variant: small-caps;
+    text-decoration: none;
+    color: #cff2d4;
+    display: inline-block;
+    text-align: center;
+    padding: 1% 0 1% 0;
+    width: 18%;
+}
+
+input[value="Home"] {
     margin-left: 3%;
 }
 
-a.colorButton input{
+input.colorButton {
 	background-color:  #1C123A;
     border: 1px solid #1C123A;
 }
 
-a.colorButton input:hover {
+input.colorButton:hover {
 	background-color: #4B2054;
     border: 1px solid #4B2054;
 }
 
-a.colorButton input:active {
+input.colorButton:active {
 	background-color: #295420;
     border: 1px solid #295420;
 }

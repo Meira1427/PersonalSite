@@ -1,43 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html ng-app='personalSite'>
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/master.css">
+        <!-- Angular and Routing Module -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.min.js">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-route.min.js">
+        </script>
+        <!-- appModule, components -->
+        <script src="app/appModule/app.module.js"></script>
+        <script src="app/appModule/about/about.component.js"></script>
+        <script src="app/appModule/contact/contact.component.js"></script>
+        <script src="app/appModule/home/home.component.js"></script>
+        <script src="app/appModule/navbar/navbar.component.js"></script>
+        <script src="app/appModule/resume/resume.component.js"></script>
+        <script src="app/appModule/labs/labs.component.js"></script>
+        <script src="app/appModule/swot/swot.component.js"></script>
         <title>Meira Pentermann</title>
     </head>
     <body>
-        <header>
-            <h1 class="myName">Meira Pentermann</h1>
-            <h3 class="keyword">Software Developer</h3>
-            <div id="navbar">
-                    <a href="index.html" class="colorButton"><input type="submit" value="Home"></input></a>
-                    <a href="about.html" class="colorButton"><input type="submit" value="About"></input></a>
-                    <a href="resume.html" class="colorButton"><input type="submit" value="Resume"></input></a>
-                    <a href="labs.html" class="colorButton"><input type="submit" value="Labs"></input></a>
-                    <a href="contact.html" class="colorButton"><input type="submit" value="Contact"></input></a>
-            </div>
-        </header>
-        <div id="hidden_header">
-            <h1 class="myName">Meira Pentermann</h1>
-            <h3 class="keyword">Software Developer</h3>
-            <div id="navbar">
-                    <a href="index.html" class="colorButton"><input type="submit" value="Home"></input></a>
-                    <a href="about.html" class="colorButton"><input type="submit" value="About"></input></a>
-                    <a href="resume.html" class="colorButton"><input type="submit" value="Resume"></input></a>
-                    <a href="labs.html" class="colorButton"><input type="submit" value="Labs"></input></a>
-                    <a href="contact.html" class="colorButton"><input type="submit" value="Contact"></input></a>
-            </div>
-        </div>
-        <main>
-            <h3>Welcome!</h3>
-        </main>
-        <div>
-            <a href ="https://www.youracclaim.com/badges/1f9ace68-a84a-450b-98d1-35f001ea2187/public_url" id="acclaim"  target="_blank"><img src="https://acclaim-production-app.s3.amazonaws.com/images/86629924-6c10-442c-8742-05ff5e45e922/Oracle-Certification-badge_OC-Associate.png" alt="Oracle OCP" width="100" height="100"></a>
-        </div>
-        <footer>
-            <p>
-                Pumpkin spice organic mocha, wings est aromatic doppio coffee mazagran extraction. Robusta roast, dripper flavour single origin, strong eu so sweet cappuccino fair trade irish. Cultivar frappuccino, froth arabica cortado frappuccino americano. Robust, caffeine chicory, grounds, cup caramelization skinny at whipped white macchiato chicory.
-            </p>
-        </footer>
+        <navbar></navbar>
+        <ng-view></ng-view>
     </body>
 </html>
